@@ -1,7 +1,7 @@
 import { Button } from "../ui/button";
 
 function AddToCart({ productId }: { productId: string }) {
-  // console.log(productId);
+  console.log(productId);
 
   return (
     <Button size="lg" className="capitalize mt-8">
